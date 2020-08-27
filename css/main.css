@@ -124,14 +124,17 @@ span{
 
 /** acá va la clase activo , la cual muestra en que pagina estamos **/
 
+.verde{
+    color: #1ed223;
+}
 .activo{
     border-bottom: 5px solid #1ed223;
 }
 
-.imagen-secundaria{
-    text-align: center;
-    margin: 0 auto;
-    float: right;
+
+img.efecto-normal{
+    width: 95%;
+    margin-bottom: 5px;
 }
 
 @media only screen  and (max-width:768px){
@@ -447,6 +450,12 @@ blockquote{
 .imagen-principal{
     text-align: center;
     margin: 0 auto; 
+}
+
+.imagen-secundaria{
+    text-align: center;
+    margin: 0 auto;
+    float: right;
 }
 
 img.efecto-imagen{
